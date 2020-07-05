@@ -1,6 +1,6 @@
 # Email-Spam-Classifier-NaiveBayes
 
-## About the Repo
+## About the Repo:
 * Spam detection is one of the major applications of Machine Learning in the interwebs today. Pretty much all of the major email service providers have spam detection systems built in and automatically classify such mail as 'Junk Mail'.
 
 ## Algorithm:
@@ -9,3 +9,7 @@
 * Often they have words like 'free', 'win', 'winner', 'cash', 'prize' and the like in them as these texts are designed to catch your eye and in some sense tempt you to open them. 
 * Also, spam messages tend to have words written in all capitals and also tend to use a lot of exclamation marks. 
 * To the human recipient, it is usually pretty straight forward to identify a spam text and our objective here is to train a model to do that for us!
+
+## Model:
+* Being able to identify spam messages is a binary classification problem as messages are classified as either 'Spam' or 'Not Spam' and nothing else.
+* Also, this is a supervised learning problem, as I will be feeding a labelled dataset into the model, that it can learn from, to make future predictions.
